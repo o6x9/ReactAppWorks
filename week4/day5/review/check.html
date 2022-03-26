@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Tools | Generate Password</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Password Tools</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="generate.html">Generate Password</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="check.html">Check Password</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container my-5">
+        <div class="row">
+            <div class="col">
+                <h1>Password Checker</h1>
+                <p>Check your password against several critiria, type your password in the field below</p>
+                <form class="row g-3 align-items-center mb-5">
+                    <div class="col-12">
+                        <label class="visually-hidden" for="passwordField">Username</label>
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="passwordField"
+                                placeholder="Start typing your password" onkeyup="checkPassword()">
+                        </div>
+                    </div>
+                </form>
+                <ul class="list-group">
+                    <li class="list-group-item" id="capitalRule">
+                        <span>
+                            <i class="bi bi-x-circle"></i>
+                            <i class="bi bi-check-square"></i>
+                        </span>
+                        <span>Password has capital letters</span>
+                    </li>
+                    <li class="list-group-item" id="smallRule">
+                        <span>
+                            <i class="bi bi-x-circle"></i>
+                            <i class="bi bi-check-square"></i>
+                        </span>
+                        <span>Password has small letters</span>
+                    </li>
+                    <li class="list-group-item" id="numbersRule">
+                        <span>
+                            <i class="bi bi-x-circle"></i>
+                            <i class="bi bi-check-square"></i>
+                        </span>
+                        <span>Password has numbers</span>
+                    </li>
+                    <li class="list-group-item" id="charactersRule">
+                        <span>
+                            <i class="bi bi-x-circle"></i>
+                            <i class="bi bi-check-square"></i>
+                        </span>
+                        <span>Password has special characters</span>
+                    </li>
+                    <li class="list-group-item" id="lengthRule">
+                        <span>
+                            <i class="bi bi-x-circle"></i>
+                            <i class="bi bi-check-square"></i>
+                        </span>
+                        <span>Password length is larger than 8</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="r.css">
+    
+<link href="link rel="preconnect href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Comforter&family=Festive&family=Gideon+Roman&family=Oswald:wght@200&family=Permanent+Marker&family=Quintessential&family=Roboto+Serif:wght@300&family=Rowdies:wght@700&family=Shizuru&display=swap" rel="stylesheet">
+
+
+
+<title>ABDULLAH'S HOMEWORK2</title>
+
+
+
+   
+</head>
+<body>
+   
+
+    <h1 style="text-align: center;">Let's Create an ID card!</h1>
+
+
+
+
+<form action="">
+   
+    <div class="info">
+<label >First Name:</label><br>
+<input id="first-name" type="text">
+    </div>
+
+    <div class="info">
+<label >Last Name:</label><br>
+<input id="last-name" type="text">
+   </div> 
+
+   <div class="info">
+<label  >Age:</label><br>
+<input id="age" type="text">
+   </div>
+
+   <div class="info">
+<label >Phone Number:</label><br>
+<input id="phone" type="tel">
+    </div>
+
+    <div class="info">
+<label >Address:</label><br>
+<input id="address"></input type="text">
+    </div>
+
+    <div class="gid">
+<input onclick="idCard()" id="submit" type="button"value="Get ID card!">
+</div>
+
+<div class="Card" id="idCard">
+    <div>
+     <label style="margin: 10px; font-style: italic; font-size: large; margin-top: 10px;" >full name :</label>
+     <label style="margin: 5px;" id="postFullName"></label>
+    </div>
+    <br>
+    <div>
+        <label style="margin: 10px;font-style: italic; font-size: large;" >Address :</label>
+        <label style="margin: 5px;" id="postAddress"></label>
+       </div>
+       <br>
+       <div>
+        <label style="margin: 10px;font-style: italic; font-size: large;" >Age :</label>
+        <label style="margin: 5px;" id="postAge"></label>
+       </div>
+       <br>
+       <div>
+        <label style="margin: 5px;font-style: italic;" id="postPhoneNymber"></label>
+       </div>
+   
+</div>
+
+</form>
+    
+
+
+<script src="r.js"></script>
+</body>
+</html>

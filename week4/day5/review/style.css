@@ -1,0 +1,12 @@
+.list-group-item .bi-check-square {
+    display: none
+}
+.list-group-item.matched {
+    color: green;
+}
+.list-group-item.matched .bi-check-square {
+    display: inline-block
+}
+.list-group-item.matched .bi-x-circle {
+    display: none
+}

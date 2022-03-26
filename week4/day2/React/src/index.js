@@ -1,0 +1,21 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+////////////////////////////////  //with curleybrises{}//
+
+// let obj = {
+//     a: "aa",
+//     b: "bb",
+//     c: {
+//         d: "dd",
+//         e: "ee"
+//     }
+// }
+
+// const { a, b, c: { d, e } } = obj;
+
+////////////////////////////////////with arry[]//
+
+// let numbers["One", "Tow", "Ten"]
+
+// const [o, t, t2] = numbers;
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////

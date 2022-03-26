@@ -1,0 +1,52 @@
+.info{
+
+    font-family:'Rowdies', cursive;
+text-align: center;
+margin: 10px;
+color: darkmagenta;
+
+}
+
+body{
+    background-color: darksalmon;
+    
+}
+
+
+
+
+
+
+
+#gid{
+    font-family:'Rowdies', cursive;
+    text-align: center;
+    color: blue;
+    margin: 10px;
+  
+
+}
+
+#idCard{
+
+    border-style: solid;
+    background: rgb(104, 90, 53);
+    float: center;
+    border: 2px solid black;
+    border-radius:20px;
+    width:450px;
+    height: 250px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+
+#pbrder{
+    text-align: center;
+    size: 2000px;
+
+    
+}
+
+
+

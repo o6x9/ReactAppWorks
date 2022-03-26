@@ -1,0 +1,53 @@
+import React from "react";
+import ReactDOM from "react-dom";
+
+// const firstTimeOut = setTimeout(function() {
+// window.alert('5 second passed')
+//         }, 5000)
+// function cancel() {
+//     clearTimeout(firstTimeOut)
+// }
+// const firstInterval = setInterval(function () {
+//     var myDate = new Date()
+//     var time = myDate.getHours() + ':' + myDate.getMinutes() +
+//         ':' + myDate.getSeconds()
+//     document.getElementById('time').innerHTML = time
+// }, 1000)
+// clearInterval(firstInterval)
+//////////////////////////////////////////////////////////
+const App = props => {
+    return <BankAccount />;
+};
+
+class BankAccount extends React.Component {
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            accountBalance: 2222.22,
+            addAmount: 0
+        };
+    }
+
+    increment() {
+        this.setState({
+            accountBalance: this.state.accountBalance + parseInt(this.state.addAmount)
+        });
+    }
+
+    render() {
+        return (
+            <div>
+                <h3>Account Balance: ${this.state.accountBalance}</h3>
+                <input
+                    type="number"
+                    onChange={event => this.setState({ addAmount: event.target.value })}
+                    value={this.state.addAmount}
+                />
+                <button onClick={this.increment.bind(this)}>Increase Amount</button>
+            </div>
+        );
+    }
+}
+
+ReactDOM.render(<App />, document.getElementById('root'));

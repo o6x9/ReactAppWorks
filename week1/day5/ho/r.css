@@ -1,0 +1,39 @@
+body{
+    background-color: cornflowerblue;
+}
+
+
+h1{
+    font-family: fantasy;
+    color: gray;
+}
+
+
+.info{
+    text-align: center;
+    font-family:'Rowdies', cursive;
+    margin: 5px;
+   
+}
+
+
+.gid{
+    font-family:'Rowdies', cursive;
+    text-align: center;
+    color: blue;
+    margin: 5px;
+
+}
+
+.Card{
+
+    border-style: solid;
+    background: rgb(245, 226, 175);
+    float: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 450px;
+    height: 250px;
+    margin-left: auto;
+    margin-right:auto ;
+}

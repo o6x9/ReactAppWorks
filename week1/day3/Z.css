@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+}
+
+header {
+background-color: #56e4b9;
+height: 50px;
+font-family: 'Rowdies', cursive;
+font-size:xx-large;
+text-align: center;
+}
+
+div {
+    margin: auto;
+    padding: auto;
+    background-size: cover;
+
+background-color: #56e4b9;
+font-family: 'Ubuntu', sans-serif;
+}
+.main-content {
+font-family: 'Arvo', serif;
+color: rgb(58, 39, 39);
+padding: 80px;
+margin: 0px;
+background-color: #674d73;
+box-sizing: border-box;
+}
+#MainInformation {
+width: 70%;
+float:left
+
+}
+#Notice {
+width: 30%;
+float: right;
+background-color: steelblue;
+color: silver;
+font-family: 'Zilla Slab', serif;
+padding: 25px;
+margin: 0px;
+}
+p {
+text-indent: 10px;
+font-family: 'Quintessential', cursive;
+border: 4px;
+border-style: groove;
+
+
+}
+footer {
+clear: both;
+background-color: black;
+color: aliceblue;
+text-align: center;
+}
+li{
+font-family: 'Oswald', sans-serif;;
+float: left;
+background-color: black;
+width: 100%;
+padding: auto;
+list-style-type: square;
+margin: 10px;
+padding: 0px;
+}
+
+a:hover{color: azure;
+
+
+}
+
+img{
+size: 100px;
+width: fit-content;
+
+}
+.Q1{
+border-width: 30px;
+border-style: initial;
+border color: #674d73;
+}
+#Z2{
+    background-color: crimson;
+    text-align: center;
+border-style: none;
+padding : 10px 10px 10px 10px
+color: blue;
+}

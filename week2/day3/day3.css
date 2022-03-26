@@ -1,0 +1,74 @@
+* {
+  outline: firebrick;
+}
+
+body {
+  background-color: darksalmon;
+  color: rgb(17, 19, 19);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: darkgreen;
+}
+
+#logo img {
+  max-width: 140px;
+  width: 150px;
+  margin: 5px;
+}
+
+#menu nav {
+  text-align: center;
+}
+
+#menu ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  list-style: none;
+}
+
+#menu ul li a {
+  padding: 5px;
+  text-decoration: none;
+  background-color: azure;
+}
+
+#social-links img {
+  max-width: 140px;
+  width: 150px;
+  margin: 5px;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+#phone {
+  text-align: center;
+  background-color: black;
+  color: darkred;
+  margin: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: x-large;
+}
+#email {
+  text-align: center;
+  background-color: black;
+  color: darkred;
+  margin: 5px;
+  font-size: x-large;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+a {
+  color: blue;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.footer-col {
+  background-color: rgb(162, 255, 0);
+  padding: auto;
+  background-attachment: fixed;
+  text-align: center;
+  justify-content: space-between;
+  outline: auto;
+}

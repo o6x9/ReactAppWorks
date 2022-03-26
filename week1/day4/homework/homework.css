@@ -1,0 +1,51 @@
+h2{
+
+font-family: 'Shizuru', cursive;;
+color: maroon;
+}
+
+li{
+   
+    size: 100px;
+    text-align: center;
+}
+header {
+    background-color: #00ff37;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: larger;
+  color: black;
+    text-align: center;
+}
+a:hover{
+
+    color: rgb(0, 0, 0);
+}
+.Form {
+    border-color: darkred;
+    border: 10px black;
+    border-style:solid;
+    width: 25%;
+    margin: 0px;
+    position: relative;
+    padding: 125px;
+    float: right;
+    margin-top: 0%;
+    background-color: rgb(18, 41, 41);
+}
+.ClickMe {
+    text-align: center;
+    color: crimson;
+    background-color: azure;
+    font-family: 'Permanent Marker', cursive;
+}
+body{
+    background-color: blueviolet;
+}
+h1{
+    color: black;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    font-family:'Permanent Marker', cursive;
+}

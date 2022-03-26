@@ -1,0 +1,14 @@
+@media (max-width: 576px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+.row div{
+border-style: solid;
+border-color: brown;
+background-color: burlywood;
+
+
+
+}
